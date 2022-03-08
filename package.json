@@ -8,7 +8,8 @@
   },
   "devDependencies": {},
   "scripts": {
-    "test-access": "npx pa11y ./tools-testpage/technikum.html --include-warnings --include-notices --reporter html > report.html"
+    "test-access": "npx pa11y ./tools-testpage/technikum.html --include-warnings --include-notices --reporter html > report.html",
+    "test-access-axe": "npx pa11y ./tools-testpage/technikum.html --include-warnings --include-notices --reporter html > report-axe.html --runner=axe"
   },
   "repository": {
     "type": "git",
