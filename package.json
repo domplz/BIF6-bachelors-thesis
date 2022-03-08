@@ -1,0 +1,23 @@
+{
+  "name": "bif6-bachelors-thesis",
+  "version": "1.0.0",
+  "description": "Repo For Bachelor Thesis Code",
+  "main": "index.js",
+  "dependencies": {
+    "pa11y": "^6.1.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test-access": "npx pa11y ./tools-testpage/technikum.html --include-warnings --include-notices --reporter html > report.html"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/domplz/BIF6-bachelors-thesis.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/domplz/BIF6-bachelors-thesis/issues"
+  },
+  "homepage": "https://github.com/domplz/BIF6-bachelors-thesis#readme"
+}
