@@ -1,2 +1,2 @@
-# BIF6-mbchelors-thesis
+# BIF6-bachelors-thesis
 Repo For Bachelor Thesis Code
